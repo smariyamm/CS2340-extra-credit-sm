@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderSync: Design & Architecture</title>
+
+    <nav style="background-color: #5a2e9d; padding: 10px; text-align: center;">
+        <a href="index.html" style="color: #fff; text-decoration: none; margin: 0 15px;">Home</a>
+        <a href="Design_Arch.html" style="color: #fff; text-decoration: none; margin: 0 15px;">Design Architecture</a>
+        <a href="UI.html" style="color: #fff; text-decoration: none; margin: 0 15px;">User Interface</a>
+        <a href="functionality.html" style="color: #fff; text-decoration: none; margin: 0 15px;">Functionality</a>
+        <a href="reflection.html" style="color: #fff; text-decoration: none; margin: 0 15px;">Reflections</a> <!-- Added Link -->
+    </nav>
+    
+
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            color: #333333;
+            background-color: #f9f9f9;
+        }
+
+        h2 {
+            color: #7400cc;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        header {
+            background: #5a2e9d;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+        margin: 0;
+        }
+
+
+        p {
+            text-align: justify;
+            max-width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: #f1ccf6;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Main Content */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Section Styling */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Highlighting Specific Sections */
+        section#conclusion {
+            background-color: #f3f0fc;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WanderSync: Design Architecture</h1>
+      </header>
+    <main>
+        <section id="introduction">
+          <h2>Introduction</h2>
+          <p style="text-align: center;">This section explores the architectural design and implementation of design patterns for WanderSync.</p>
+        </section>
+        
+        <section id="domain-models">
+          <h2>Domain Model from Sprint 1</h2>
+          <p>The following diagram represents the domain model of the application made during Sprint 1:</p>
+          <img src="pictures/S1Domain.png" alt="Domain Model" height="600">
+        </section>
+
+        <section id="domain-models2">
+            <h2>Revised Domain Model from Sprint 2</h2>
+            <p>The following diagram represents the revised domain model of the application made during Sprint 2:</p>
+            <img src="pictures/S2Domain.png" alt="Domain Model2" height="700">
+        </section>
+
+        <section id="use-case-diagrams">
+            <h2>Use Case Diagram from Sprint 1</h2>
+            <p>The following diagram outlines key interactions between users and the system:</p>
+            <img src="pictures/S1Use.png" alt="Use Case Diagram" height="600">
+        </section>
+        
+        <section id="sequence-diagrams">
+            <h2>Sequence Diagram from Sprint 2</h2>
+            <p>The sequence diagrams illustrate the flow of processes within the system for one of the use cases shown in the use case diagram:</p>
+            <img src="pictures/S2Sequence.png" alt="Sequence Diagram" height="700">
+        </section>
+
+        <section id="sequence-diagrams2">
+            <h2>Sequence Diagram from Sprint 3</h2>
+            <p>The sequence diagrams illustrate the flow of processes within the system for another one of the use cases shown in the use case diagram:</p>
+            <img src="pictures/S3Sequnce.png" alt="Sequence Diagram2" height="500">
+        </section>
+        
+        <section id="dcd">
+          <h2>Design Class Diagram (DCD) from Sprint 3</h2>
+          <p>This diagram provides a high-level view of the classes in the application:</p>
+          <img src="pictures/S3DCD.png" alt="Design Class Diagram" height="500">
+        </section>
+
+        <section id="mvvm">
+            <h2>MVVM Architecture</h2>
+            <p> We decided to use the Model-View-ViewModel architecture. 
+                MVVM is an architectural pattern that advocates a clear separation 
+                of concerns in software development. Here, the Model represents data and logic, 
+                the View handles user interface management, and the ViewModel serves 
+                as a mediator between the View and the Model. The separation into such components 
+                allows for better maintainability, as changes can be made without affecting 
+                other parts of the application, which adds to testability and scalability.
+            </p>
+            <img src="pictures/MVVM.png" alt="MVVM" height="500">
+          </section>
+
+
+        
+        <section id="conclusion">
+          <h2>Conclusion</h2>
+          <p style="text-align: center;">The above diagrams illustrate how WanderSync's architecture is structured to support its functionality and user experience.<br> <b>Credits for all diagrams go to all members of the group.</b></p>
+        </section>
+    </main>
+</body>
+</html>
