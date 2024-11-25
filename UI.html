@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WanderSync: User Interface</title>
+
+  <nav style="background-color: #5a2e9d; padding: 10px; text-align: center;">
+    <a href="index.html" style="color: #fff; text-decoration: none; margin: 0 15px;">Home</a>
+    <a href="Design_Arch.html" style="color: #fff; text-decoration: none; margin: 0 15px;">Design Architecture</a>
+    <a href="UI.html" style="color: #fff; text-decoration: none; margin: 0 15px;">User Interface</a>
+    <a href="functionality.html" style="color: #fff; text-decoration: none; margin: 0 15px;">Functionality</a>
+    <a href="reflection.html" style="color: #fff; text-decoration: none; margin: 0 15px;">Reflections</a> <!-- Added Link -->
+</nav>
+
+  
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background: #5a2e9d;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #5a2e9d;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+        font-size: 16px;
+        margin: 10px 20px;
+        line-height: 1.6;
+
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 10px;
+        background-color: #f1ccf6;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      display: block;
+      margin: 15px auto;
+      max-width: 30%;
+      height: 500;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+
+    /* Conclusion Section */
+    #conclusion {
+      background: #f2f2f2;
+      padding: 15px;
+      border-radius: 8px;
+      font-style: italic;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WanderSync: User Interface</h1>
+  </header>
+  
+  <main>
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p style="text-align: center;">This section provides a visual tour of WanderSync's app, highlighting its main functionalities and interaction flow.</p>
+    </section>
+    
+    <section id="splash-page">
+      <h2>Splash Page</h2>
+      <p style="text-align: center;">The Splash Page is the first screen users see when launching the app:</p>
+      <img src="UI/Splash.png" alt="Splash Page">
+    </section>
+    
+    <section id="login">
+      <h2>Login Screen</h2>
+      <p>The Login Screen allows users to securely access their accounts, all users are stored in Firebase.</p>
+      <img src="UI/login.png" alt="Login Screen">
+    </section>
+    
+    <section id="logistics">
+      <h2>Logistics Screen</h2>
+      <p style="text-align: center;">The Logistics Screen helps users keep track of their travel plans and add notes:</p>
+      <img src="UI/logistics.png" alt="Logistics Screen">
+    </section>
+    
+    <section id="destination">
+      <h2>Destination Screen</h2>
+      <p style="text-align: center;">The Destination Screen displays details about selected travel destinations:</p>
+      <img src="UI/des.png" alt="Destination Screen">
+    </section>
+    
+    <section id="accommodations">
+      <h2>Accommodations Screen</h2>
+      <p style="text-align: center;">The Accommodations Screen allows users to view and manage lodging details:</p>
+      <img src="UI/accom.png" alt="Accommodations Screen">
+    </section>
+    
+    <section id="travel">
+      <h2>Travel Posts</h2>
+      <p style="text-align: center;">
+        The Travel Screen provides a way to log travel posts and show users an overview of all their previous travel posts:
+      </p>
+      <div style="display: flex; justify-content: center; gap: 15px;">
+        <img src="UI/travel.png" alt="Travel Post Screen" style="max-width: 30%; height: auto;">
+        <img src="UI/travel2.png" alt="Travel Posts Overview" style="max-width: 30%; height: auto;">
+      </div>
+    </section>
+    
+    <section id="conclusion">
+      <p style="text-align: center;">The above screenshots illustrate the user-friendly interface of WanderSync, focusing on its key functionalities.</p>
+    </section>
+  </main>
+</body>
+</html>
